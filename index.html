@@ -23,12 +23,13 @@
 		>
 			<div class="nav-left d-flex">
 				<a class="navbar-brand" href="index.html">
-					<img
-						src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/500px-LEGO_logo.svg.png?20221012140704"
-						alt="Logo"
-						class="d-inline-block align-text-top"
-					/>
-					Jevon Thompson
+					<span
+						><img
+							src="images/giphy.gif"
+							alt="Gif of a cat typing on a laptop"
+							class="d-inline-block align-text-top"
+					/></span>
+					<span>Jevon Thompson</span>
 				</a>
 			</div>
 			<div class="nav-right d-flex justify-content-evenly align-items-center">
@@ -88,53 +89,67 @@
 				</a>
 			</div>
 		</main>
-		<section
-			id="skills-section"
-			class="skills-section container-md d-flex flex-column text-center justify-content-evenly"
-		>
-			<h2 class="mx-auto">My Skills:</h2>
-			<div class="container-fluid">
-				<div class="row row-cols-auto gx-5 gy-5">
+		<section id="skills-section">
+			<h2 id="skills-header">My Skills:</h2>
+			<div id="skill-images-wrapper">
+				<div class="skills-img-box">
 					<img
 						class="col"
 						src="images/html.webp"
 						alt="html coding language logo"
 					/>
+				</div>
+				<div class="skills-img-box">
 					<img
 						class="col"
 						src="images/css.webp"
 						alt="css coding language logo"
 					/>
+				</div>
+
+				<div class="skills-img-box">
 					<img
 						class="col"
 						src="images/bootstrap.webp"
 						alt="Bootstrap framework logo"
 					/>
+				</div>
+
+				<div class="skills-img-box">
 					<img
-						class="col"
+						class=""
 						src="images/javascript.webp"
 						alt="javascript programming language logo"
 					/>
-					<img class="col" src="images/nodejs-logo.webp" alt="Node.js logo" />
+				</div>
+				<div class="skills-img-box">
 					<img
-						class="col"
+						class=""
 						src="images/python.webp"
 						alt="python programming language logo"
 					/>
+				</div>
+				<div class="skills-img-box">
+					<img class="" src="images/nodejs-logo.webp" alt="Node.js logo" />
+				</div>
+				<div class="skills-img-box">
 					<img
-						class="col"
+						class=""
 						src="images/github.webp"
 						alt="Github hosting platform logo"
 					/>
+				</div>
+
+				<div class="skills-img-box">
 					<img
-						class="col"
+						class=""
 						src="images/LINUX-LOGO-453x500.webp"
 						alt="Linux penguin logo"
 					/>
 				</div>
 			</div>
 		</section>
-		<section id="project-section">
+		<main id="project-section">
 			<h2 id="project-title">Projects</h2>
 			<div class="proj-row">
 				<div class="proj-card">
@@ -200,10 +215,14 @@
 						</div>
 
 						<p class="proj-text">
-							Uses mostly bootstrap for styling combined w/
-							https://dictionaryapi.dev API integration to return searched
-							term's meaning,synonym, part of speach and text pronunciation
-							along with audio propunciation
+							Bootstrapped styled online dictionary that returns a searched
+							term's definition, part of speech, pronunciation(audio & text)
+							using<span>
+								<a href="https://dictionaryapi.dev"
+									>https://dictionaryapi.dev's
+								</a></span
+							>
+							API
 						</p>
 
 						<div class="proj-btn-section">
@@ -234,7 +253,7 @@
 					</div>
 					<div class="proj-text-box">
 						<h3 class="proj-heading">Linktree clone</h3>
-												<div class="proj-skills-type-wrapper">
+						<div class="proj-skills-type-wrapper">
 							<img class="proj-skill-image" src="images/html.webp" alt="" />
 							<img class="proj-skill-image" src="images/css.webp" alt="" />
 							<img
@@ -244,11 +263,10 @@
 							/>
 						</div>
 
-
 						<p class="proj-text">
 							Personal clone of a linktree website using bootstrap class styling
 						</p>
-						
+
 						<div class="proj-btn-section">
 							<a
 								class="proj-button"
@@ -272,12 +290,12 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</main>
 		<section
 			id="about-section"
 			class="text-center container-fluid mx-auto d-flex flex-column justify-content-evenly"
 		>
-			<h2>About me</h2>
+			<h2 id="about-title">About me</h2>
 			<div class="about-txt container-md">
 				<h4>Where am I from?</h4>
 				<p>Answer</p>
@@ -290,12 +308,12 @@
 			</div>
 		</section>
 
-		<section id="contact-section" class="contact-sec sec-pad">
+		<section class="contact-sec sec-pad">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6">
 						<div class="contact-detail">
-							<h2 class="section-title">Contact me</h2>
+							<h2 class="contact-title">Contact me</h2>
 
 							<ul class="contact-ul">
 								<li>
@@ -303,14 +321,12 @@
 								</li>
 								<li>
 									<i class="fa fa-phone"></i>
-									<a href="tel:561-536-8248"><b>561-536-8248</b></a>
+									<b>561-536-8248</b>
 								</li>
 
 								<li>
 									<i class="fa-solid fa-envelope"></i>
-									<a href="mailto:webdevjev@gmail.com"
-										><b>webdevjev@gmail.com</b></a
-									>
+									<b>webdevjev@gmail.com</b>
 								</li>
 							</ul>
 
