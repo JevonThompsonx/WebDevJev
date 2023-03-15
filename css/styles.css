@@ -1,22 +1,17 @@
 body {
 	background-color: #f5f5f5;
+	font-size: calc(1rem + 1vh);
 }
 
-nav {
-	background-color: #f5f5f5;
-	font-size: calc(1rem + 1vw);
-	height: 10vh;
-}
-
-.nav-right {
-	width: 30%;
-}
-.nav-right a {
+.navbar-brand {
+	justify-content: space-between;
+	align-items: baseline;
+	font-size: 1.8rem;
 }
 nav img {
 	height: 40px;
 	width: auto;
-	margin-top: 5px;
+	margin-top: 6px;
 }
 
 nav a,
@@ -25,10 +20,10 @@ nav a,
 }
 nav a:hover,
 .links a:hover {
-	color: #FFA3FD;
+	color: #ffa3fd;
 }
 #welcome-section-social-links a:hover {
-	color: #865DFF;
+	color: #865dff;
 }
 #notion-logo {
 	height: calc(1rem + 1.5vw);
@@ -105,8 +100,8 @@ nav a:hover,
 }
 :root {
 	--border: 3px;
-	--color1: #FFA3FD;
-	--color2: #865DFF;
+	--color1: #ffa3fd;
+	--color2: #865dff;
 	--from: 30deg;
 	--distance: 46%;
 }
@@ -137,27 +132,25 @@ nav a:hover,
 	);
 }
 
-
 #project-section {
 	width: 100vw;
-	height: 100vh;
-	font-size: 1.5rem;
+	height: 80vh;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-evenly;
+	justify-content: space-around;
 	align-items: center;
 }
 .proj-row {
 	width: 100%;
-	height: 70%;
+	height: 80%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 	align-items: center;
 }
 .proj-card {
-	width: 470px;
-	height: auto;
+	width: auto;
+	height: 500px;
 	aspect-ratio: 3/4;
 	display: flex;
 	flex-direction: column;
@@ -172,9 +165,9 @@ nav a:hover,
 	margin-bottom: 5vh;
 }
 .proj-card a {
-		text-decoration: none;
+	text-decoration: none;
 }
-.img-box {
+.proj-img-box {
 	width: 100%;
 	height: 40%;
 }
@@ -186,7 +179,7 @@ nav a:hover,
 .proj-text-box {
 	display: flex;
 	flex-direction: column;
-	justify-content:space-evenly;
+	justify-content: space-evenly;
 	height: 55%;
 	width: 90%;
 }
@@ -195,7 +188,7 @@ nav a:hover,
 	justify-content: space-evenly;
 }
 .proj-text {
-	font-size: 1.2rem;
+	font-size: 1rem;
 }
 .proj-btn-section {
 	display: flex;
@@ -204,8 +197,12 @@ nav a:hover,
 }
 .proj-skill-image {
 	height: auto;
-	width: 50px;
+	width: 40px;
 }
+
+.proj-button {
+}
+
 .proj-button {
 	text-decoration: none;
 	padding: 0.6em 2em;
@@ -226,15 +223,15 @@ nav a:hover,
 	content: "";
 	background: linear-gradient(
 		45deg,
-		#FFA3FD,
-		#865DFF,
-		#FFA3FD,
-		#865DFF,
-		#FFA3FD,
-		#865DFF,
-		#FFA3FD,
-		#865DFF,
-		#FFA3FD
+		#ffa3fd,
+		#865dff,
+		#ffa3fd,
+		#865dff,
+		#ffa3fd,
+		#865dff,
+		#ffa3fd,
+		#865dff,
+		#ffa3fd
 	);
 	position: absolute;
 	top: -2px;
@@ -289,22 +286,24 @@ nav a:hover,
 	align-items: center;
 }
 #skills-section img {
-	height: 6rem;
+	height: 8rem;
 	width: auto;
 	padding: 20px;
 }
 #skill-images-wrapper {
-	width: 80%;
+	width: 90%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 	align-items: center;
+	height: 100%;
 }
 .skills-img-box {
-	border: #FF8FB1 1px solid;
+	border: #ff8fb1 1px solid;
 	-webkit-border-radius: 12px;
 	-moz-border-radius: 12px;
 	border-radius: 12px;
+
 }
 @media (max-width: 425px) {
 	nav img {
@@ -312,7 +311,7 @@ nav a:hover,
 		width: auto;
 	}
 	#welcome-section {
-		margin-top: 15vh;
+		margin-top: 5vh;
 		height: calc(600px);
 		font-size: 1rem;
 	}
@@ -358,7 +357,7 @@ input {
 	word-wrap: break-word;
 }
 #contact-social-links a:hover {
-	color: #865DFF;
+	color: #865dff;
 }
 .contact-sec .contact-ul i {
 	font-size: 18px;
@@ -403,7 +402,7 @@ form.contFrm {
 
 .inptFld:focus {
 	outline-offset: -4px;
-	outline: 1px solid #FF8FB1;
+	outline: 1px solid #ff8fb1;
 }
 
 .contFrm textarea {
@@ -490,13 +489,21 @@ form.contFrm {
 	}
 }
 
-@media (prefers-color-scheme:dark) {
-	body,nav, a, .inptBtn{
-	background-color:#11001c ;
-	color: #f8f7ff;
+@media (prefers-color-scheme: dark) {
+	body,
+	.navbar,
+	a,
+	.inptBtn,
+	.nav-item .nav-link,
+	.navbar-brand span {
+		background-color: #11001c;
+		color: #f8f7ff;
 	}
-
-	#project-section, .contact-sec {
+	.navbar-toggler-icon {
+		background-color: #ffa3fd;
+	}
+	#project-section,
+	.contact-sec {
 		background-color: #32004f;
 	}
 
@@ -504,23 +511,40 @@ form.contFrm {
 		background-color: #f8f7ff;
 		color: #000;
 	}
-	.proj-text a{
-	background-color: #f8f7ff;
-	color:#000 ;
+	.proj-text a {
+		background-color: #f8f7ff;
+		color: #000;
+	}
 }
-}
-@media (prefers-color-scheme:light) {
-	body,nav, a, .inptBtn{
-	background-color:#f8f7ff ;
-	color: #000;
+@media (prefers-color-scheme: light) {
+	body,
+	nav,
+	a,
+	.inptBtn,
+	.nav-item .nav-link,
+	.navbar-brand span {
+		background-color: #f8f7ff;
+		color: #000;
 	}
 
-	#project-section, .contact-sec {
+	#project-section,
+	.contact-sec {
 		background-color: #f8f7ff;
 	}
-	
+
 	.proj-card {
 		background-color: #f8f7ff;
 		color: #000;
+	}
+}
+nav a:hover {
+	color: #ffa3fd !important;
+}
+
+@media (max-width:450px) {
+	#skills-section {
+		height: 70vh;
+	}
+	#skill-images-wrapper {
 	}
 }
