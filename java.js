@@ -1,3 +1,4 @@
+const togglerIcon = document.querySelector('.navbar-toggler-icon')
 let iconNumber = 0
 togglerIcon.addEventListener('click', ()=> {
     iconNumber++
