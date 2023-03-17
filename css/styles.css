@@ -237,12 +237,12 @@ nav a:hover,
 	-webkit-filter: blur(5px);
 	width: calc(100% + 4px);
 	height: calc(100% + 4px);
-	animation: glowing-button-85 20s linear infinite;
+	animation: glowing-button 20s linear infinite;
 	transition: opacity 0.3s ease-in-out;
 	border-radius: 10px;
 }
 
-@keyframes glowing-button-85 {
+@keyframes glowing-button {
 	0% {
 		background-position: 0 0;
 	}
@@ -293,11 +293,183 @@ nav a:hover,
 	align-items: center;
 	height: 100%;
 }
+
 .skills-img-box {
-	border: #ff8fb1 1px solid;
 	-webkit-border-radius: 12px;
 	-moz-border-radius: 12px;
 	border-radius: 12px;
+	--borderWidth: 3px;
+	background: #1d1f20;
+	position: relative;
+	border-radius: var(--borderWidth);
+}
+@keyframes animatedgradient {
+	0% {
+		background-position: 0% 50%;
+	}
+
+	50% {
+		background-position: 50% 100%;
+	}
+	100% {
+		background-position: 100% 0%;
+	}
+}
+
+#html-logo:after {
+	content: "";
+	position: absolute;
+	top: calc(-1 * var(--borderWidth));
+	left: calc(-1 * var(--borderWidth));
+	height: calc(100% + var(--borderWidth) * 2);
+	width: calc(100% + var(--borderWidth) * 2);
+	background: linear-gradient(60deg, #f79533, #ff2000, #f79533, #ff2000);
+	border-radius: calc(2 * var(--borderWidth));
+	z-index: -1;
+	animation: animatedgradient 3s linear alternate infinite;
+	background-size: 300% 300%;
+}
+
+#css-logo:after {
+	content: "";
+	position: absolute;
+	top: calc(-1 * var(--borderWidth));
+	left: calc(-1 * var(--borderWidth));
+	height: calc(100% + var(--borderWidth) * 2);
+	width: calc(100% + var(--borderWidth) * 2);
+	background: linear-gradient(
+		60deg,
+		#0096e5,
+		#ff2000,
+		#0096e5,
+		#ff2000,
+		#0096e5
+	);
+	border-radius: calc(2 * var(--borderWidth));
+	z-index: -1;
+	animation: animatedgradient 3s linear alternate infinite;
+	background-size: 300% 300%;
+}
+#bootstrap-logo:after {
+	content: "";
+	position: absolute;
+	top: calc(-1 * var(--borderWidth));
+	left: calc(-1 * var(--borderWidth));
+	height: calc(100% + var(--borderWidth) * 2);
+	width: calc(100% + var(--borderWidth) * 2);
+	background: linear-gradient(
+		60deg,
+		#5d3b7f,
+		#0096e5,
+		#5d3b7f,
+		#0096e5,
+		#5d3b7f
+	);
+	border-radius: calc(2 * var(--borderWidth));
+	z-index: -1;
+	animation: animatedgradient 3s linear alternate infinite;
+	background-size: 300% 300%;
+}
+#javascript-logo:after {
+	content: "";
+	position: absolute;
+	top: calc(-1 * var(--borderWidth));
+	left: calc(-1 * var(--borderWidth));
+	height: calc(100% + var(--borderWidth) * 2);
+	width: calc(100% + var(--borderWidth) * 2);
+	background: linear-gradient(
+		60deg,
+		#fd657d,
+		#f79533,
+		#fd657d,
+		#f79533,
+		#fd657d
+	);
+	border-radius: calc(2 * var(--borderWidth));
+	z-index: -1;
+	animation: animatedgradient 3s linear alternate infinite;
+	background-size: 300% 300%;
+}
+#python-logo:after {
+	content: "";
+	position: absolute;
+	top: calc(-1 * var(--borderWidth));
+	left: calc(-1 * var(--borderWidth));
+	height: calc(100% + var(--borderWidth) * 2);
+	width: calc(100% + var(--borderWidth) * 2);
+	background: linear-gradient(
+		60deg,
+		#01bcd6,
+		#fedc00,
+		#3f51b5,
+		#01bcd6,
+		#fedc00,
+		#3f51b5
+	);
+	border-radius: calc(2 * var(--borderWidth));
+	z-index: -1;
+	animation: animatedgradient 3s linear alternate infinite;
+	background-size: 300% 300%;
+}
+#nodejs-logo:after {
+	content: "";
+	position: absolute;
+	top: calc(-1 * var(--borderWidth));
+	left: calc(-1 * var(--borderWidth));
+	height: calc(100% + var(--borderWidth) * 2);
+	width: calc(100% + var(--borderWidth) * 2);
+	background: linear-gradient(
+		60deg,
+		#418B3E,
+		#333333,
+		#418B3E,
+		#01bcd6,
+		#fedc00
+	);
+	border-radius: calc(2 * var(--borderWidth));
+	z-index: -1;
+	animation: animatedgradient 3s linear alternate infinite;
+	background-size: 300% 300%;
+}
+#github-logo:after {
+	content: "";
+	position: absolute;
+	top: calc(-1 * var(--borderWidth));
+	left: calc(-1 * var(--borderWidth));
+	height: calc(100% + var(--borderWidth) * 2);
+	width: calc(100% + var(--borderWidth) * 2);
+	background: linear-gradient(
+		60deg,
+		#5D6AC0,
+		#01bcd6,
+		#3f51b5,
+		#01bcd6,
+		#5D6AC0
+	);
+	border-radius: calc(2 * var(--borderWidth));
+	z-index: -1;
+	animation: animatedgradient 3s linear alternate infinite;
+	background-size: 300% 300%;
+}
+#linux-logo:after {
+	content: "";
+	position: absolute;
+	top: calc(-1 * var(--borderWidth));
+	left: calc(-1 * var(--borderWidth));
+	height: calc(100% + var(--borderWidth) * 2);
+	width: calc(100% + var(--borderWidth) * 2);
+	background: linear-gradient(
+		60deg,
+		#F6B500,
+		#FDFDFD,
+		#F6B500,
+		#FDFDFD,
+		#F6B500
+	);
+	border-radius: calc(2 * var(--borderWidth));
+	z-index: -1;
+	animation: animatedgradient 3s linear alternate infinite;
+	background-size: 300% 300%;
 }
 @media (max-width: 425px) {
 	nav img {
