@@ -713,8 +713,7 @@ form.contFrm {
 @media (prefers-color-scheme: dark) {
 
 	body,
-	.navbar,
-	a,
+	.navbar, #contact-section a, #welcome-section a,
 	.nav-item .nav-link,
 	.navbar-brand span {
 		background-color: #11001c;
