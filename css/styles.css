@@ -670,11 +670,14 @@ form.contFrm {
 	body,
 	.navbar,
 	a,
-	.inptBtn,
+	
 	.nav-item .nav-link,
 	.navbar-brand span {
 		background-color: #11001c;
 		color: #f8f7ff;
+	}
+	.inptBtn {
+		background-color:#ff8fb1 ;
 	}
 #about-section {
 	height: fit-content;
@@ -697,9 +700,6 @@ form.contFrm {
 
 }
 
-	#project-section,
-	.contact-sec {
-	}
 
 	.proj-card {
 		background-color: #f8f7ff;
@@ -788,7 +788,9 @@ nav a:hover {
 	h1 {
 		font-size: calc(1.375rem + 0.5vw);
 	}
-
+	.about-txt {
+padding: 3ch;
+	}
 	h2 {
 	}
 	.proj-button {
