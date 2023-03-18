@@ -26,10 +26,7 @@ a {
 	text-decoration: none;
 }
 
-nav a:hover,
-.text-links:hover {
-	color: #ffa3fd;
-}
+
 .navbar-toggler {
 			border:none
 
@@ -737,14 +734,19 @@ form.contFrm {
 @media (prefers-color-scheme: dark) {
 	body,
 	.navbar,
-	#contact-section a,
-	#welcome-section a,
-	.nav-item .nav-link,
+a,
+.nav-link,
 	.navbar-brand span {
 		background-color: #11001c;
 		color: #f8f7ff;
 	}
-
+.nav-link:hover,
+.text-links:hover {
+	color: #ffa3fd;
+}
+#about-section a {
+			background-color: inherit;
+}
 	.inptBtn {
 		background-color: #ff8fb1;
 	}
@@ -780,14 +782,20 @@ form.contFrm {
 
 @media (prefers-color-scheme: light) {
 	body,
-	nav,
-	#contact-section a,
-	#welcome-section a,
-	.nav-item .nav-link,
+	.navbar,
+a,
+.nav-link,
 	.navbar-brand span {
 		background-color: #f8f7ff;
 		color: #000;
 	}
+.nav-link:hover,
+.text-links:hover {
+	color: #92bfd9;
+}
+#about-section a {
+			background-color: inherit;
+}
 	:root {
 		--border: 3px;
 		--color1: #92bfd9;
@@ -828,9 +836,6 @@ form.contFrm {
 	}
 }
 
-nav a:hover {
-	color: #ffa3fd !important;
-}
 
 
 @media (max-width: 1440px) {
