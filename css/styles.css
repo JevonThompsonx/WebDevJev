@@ -30,7 +30,10 @@ nav a:hover,
 .text-links:hover {
 	color: #ffa3fd;
 }
+.navbar-toggler {
+			border:none
 
+	}
 #welcome-section-social-links a:hover {
 	color: #865dff;
 }
@@ -745,6 +748,9 @@ form.contFrm {
 	.inptBtn {
 		background-color: #ff8fb1;
 	}
+.navbar-toggler-icon {
+	color: #ff8fb1;
+}
 
 	#about-section::after {
 		content: "";
@@ -793,6 +799,10 @@ form.contFrm {
 	.titles {
 		text-decoration: underline #92bfd9;
 	}
+	.navbar-toggler-icon {
+	color: #92bfd9;
+}
+	
 	#project-section,
 	.contact-sec {
 		background-color: #f8f7ff;
@@ -822,9 +832,6 @@ nav a:hover {
 	color: #ffa3fd !important;
 }
 
-.navbar-toggler-icon {
-	color: #ff8fb1;
-}
 
 @media (max-width: 1440px) {
 	#project-section {
