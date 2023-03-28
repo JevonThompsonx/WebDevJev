@@ -10,7 +10,7 @@ togglerIcon.addEventListener('click', ()=> {
     }
 })
 const welcomeImg = document.querySelector('#welcome-img')
-welcomeImg.addEventListener('load' , ()=> {
+welcomeImg.addEventListener('DOMContentLoaded' , ()=> {
 if (window.matchMedia) {
   if(window.matchMedia('(prefers-color-scheme: dark)').matches){
        welcomeImg.src = 'images/Me-modified.webp'
