@@ -26,11 +26,9 @@ a {
 	text-decoration: none;
 }
 
-
 .navbar-toggler {
-			border:none
-
-	}
+	border: none;
+}
 #welcome-section-social-links a:hover {
 	color: #865dff;
 }
@@ -563,9 +561,8 @@ a {
 }
 
 ul {
-	list-style: none;
+	list-style: disc;
 }
-
 input {
 	overflow: hidden;
 }
@@ -586,7 +583,10 @@ input {
 	display: flex;
 	font-size: 1rem;
 }
+.contact-ul {
+		list-style: none;
 
+}
 .contact-sec .contact-ul li,
 .contact-ul b {
 	font-size: 20px;
@@ -734,25 +734,25 @@ form.contFrm {
 @media (prefers-color-scheme: dark) {
 	body,
 	.navbar,
-a,
-.nav-link,
+	a,
+	.nav-link,
 	.navbar-brand span {
 		background-color: #11001c;
 		color: #f8f7ff;
 	}
-.nav-link:hover,
-.text-links:hover {
-	color: #ffa3fd;
-}
-#about-section a {
-			background-color: inherit;
-}
+	.nav-link:hover,
+	.text-links:hover {
+		color: #ffa3fd;
+	}
+	#about-section a {
+		background-color: inherit;
+	}
 	.inptBtn {
 		background-color: #ff8fb1;
 	}
-.navbar-toggler-icon {
-	color: #ff8fb1;
-}
+	.navbar-toggler-icon {
+		color: #ff8fb1;
+	}
 
 	#about-section::after {
 		content: "";
@@ -783,19 +783,19 @@ a,
 @media (prefers-color-scheme: light) {
 	body,
 	.navbar,
-a,
-.nav-link,
+	a,
+	.nav-link,
 	.navbar-brand span {
 		background-color: #f8f7ff;
 		color: #000;
 	}
-.nav-link:hover,
-.text-links:hover {
-	color: #92bfd9;
-}
-#about-section a {
-			background-color: inherit;
-}
+	.nav-link:hover,
+	.text-links:hover {
+		color: #92bfd9;
+	}
+	#about-section a {
+		background-color: inherit;
+	}
 	:root {
 		--border: 3px;
 		--color1: #92bfd9;
@@ -808,9 +808,9 @@ a,
 		text-decoration: underline #92bfd9;
 	}
 	.navbar-toggler-icon {
-	color: #92bfd9;
-}
-	
+		color: #92bfd9;
+	}
+
 	#project-section,
 	.contact-sec {
 		background-color: #f8f7ff;
@@ -835,8 +835,6 @@ a,
 		background-image: linear-gradient(45deg, #92bfd9, #ccced3, #92bfd9);
 	}
 }
-
-
 
 @media (max-width: 1440px) {
 	#project-section {
