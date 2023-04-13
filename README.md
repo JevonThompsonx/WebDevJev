@@ -4,32 +4,36 @@ My own personal website that hosts all my public projects and acts as a resume
 
 ## Projects  🏗️
 
-- Dictionary API  📖
-  - Bootstrap base styling
-  - Javascript DOM manipulation
-    - Dark mode toggle
-    - [Dictionary API's](https://dictionaryapi.dev "link to dictionary API's homepage") search on load and submit
+1 Dictionary API  📖
 
-- Carolina heals 🧘🏼‍♀️  
-  - Launched sit
-  - Client collaboratio
-  - Base bootstrap stylin
-  - Calendly integration for schedulin
-  - SEO optimized
-  - Accessibility focused
+- Bootstrap base styling
+- Javascript DOM manipulation
+  - Dark mode toggle
+  - [Dictionary API's](https://dictionaryapi.dev "link to dictionary API's homepage") search on load and submit
 
-- Linktree clone  🌐
-  - Bootstrap quick styling
-  - Javascript share button
-  - Font awesome social media/share button icons
+2 Carolina heals 🧘🏼‍♀️ 
 
-- PingPongProject  🏓
-  - Bootstrap styling  
-  - Javscript DOM manipulation score tracker
-    - Sets max score using variables
-    - Resets score when setting max
-    - Locks score at max using if/else
-    - Reset button for manual score reset
+- Launched site
+- Client collaboratio
+- Base bootstrap stylin
+- Calendly integration for schedulin
+- SEO optimized
+- Accessibility focused
+
+3 Linktree clone  🌐
+
+- Bootstrap quick styling
+- Javascript share button
+- Font awesome social media/share button icons
+
+4 PingPongProject  🏓
+
+- Bootstrap styling  
+- Javscript DOM manipulation score tracker
+  - Sets max score using variables
+  - Resets score when setting max
+  - Locks score at max using if/else
+  - Reset button for manual score reset
 
 ## About me 👨‍💻
 
@@ -50,7 +54,7 @@ At first I played around with the idea of a doctor or a lawyer to please my pare
 right. When I started thinking more of what I wanted to do, I stumbled across [Python for everybody](https://www.py4e.com), a free resource by
 [Professor Charles Severance](https://www.dr-chuck.com "Link to Professor Severance's personal page") who
 for me broke the complexity of coding/programming. Writing code has quickly become the most rewarding
-experience of my life and is something I do more for myself than anything else 
+experience of my life and is something I do more for myself than anything else
 
 ### Why hire me?
 
