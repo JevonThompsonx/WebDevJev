@@ -1,4 +1,4 @@
-<h1> <a href='https://jevonthompsonx.github.io/WebDevJev/'> Personal-site  🐙🛸 </a> </h1>
+<h1> <a href='https://jevonthompsonx.github.io/WebDevJev/' title='Click to go to website'> Personal-site  🐙🛸 </a> </h1>
 
 My own personal website that hosts all my public projects and acts as a resume  
 
