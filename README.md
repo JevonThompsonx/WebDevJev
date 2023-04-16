@@ -12,7 +12,7 @@ My own personal website that hosts all my public projects and acts as a resume
   - [Dictionary API's](https://dictionaryapi.dev "link to dictionary API's homepage") search on load and submit
 - responsive design
 
-2 Carolina heals 🧘🏼‍♀️ 
+2 Carolina heals 🧘🏼‍♀️  
 
 - Launched site
 - Client collaboratio
