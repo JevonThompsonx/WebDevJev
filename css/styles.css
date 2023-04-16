@@ -121,6 +121,9 @@ a {
 	--color2: #865dff;
 	--from: 30deg;
 	--distance: 46%;
+	--projCards: 5;
+	--projCardSize: 600px;
+	--projSectionSize: 150vh;
 }
 
 .welcome-img-box::after {
@@ -152,7 +155,7 @@ a {
 
 #project-section {
 	width: 100vw;
-	height: 80vh;
+	height: var(--projSectionSize);
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -170,7 +173,7 @@ a {
 
 .proj-card {
 	width: auto;
-	height: 500px;
+	height: var(--projCardSize);
 	aspect-ratio: 3/4;
 	display: flex;
 	flex-direction: column;
@@ -584,8 +587,7 @@ input {
 	font-size: 1rem;
 }
 .contact-ul {
-		list-style: none;
-
+	list-style: none;
 }
 .contact-sec .contact-ul li,
 .contact-ul b {
@@ -770,11 +772,6 @@ form.contFrm {
 		color: #000;
 	}
 
-	.proj-text a {
-		background-color: #f8f7ff;
-		color: #000;
-	}
-
 	.text-links {
 		color: #ffd8be;
 	}
@@ -838,7 +835,7 @@ form.contFrm {
 
 @media (max-width: 1440px) {
 	#project-section {
-		height: 1500px;
+		height: calc(var(--projSectionSize) + 600px);
 	}
 
 	.proj-button {
@@ -848,11 +845,11 @@ form.contFrm {
 
 @media (max-width: 768px) {
 	#project-section {
-		height: 1400px;
+		height: calc(var(--projSectionSize) + 400px);
 	}
 
 	.proj-card {
-		height: 500px;
+		height: var(--projCardSize);
 		aspect-ratio: 3/5;
 	}
 
@@ -867,9 +864,11 @@ form.contFrm {
 	}
 
 	#project-section {
-		height: 2800px;
+		height: calc(var(--projSectionSize) * 2 + 100px);
 	}
-
+	.proj-card {
+		height: 600px;
+	}
 	.proj-row {
 		height: 90%;
 	}
