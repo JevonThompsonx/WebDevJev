@@ -10,6 +10,7 @@ My own personal website that hosts all my public projects and acts as a resume
 - Javascript DOM manipulation
   - Dark mode toggle
   - [Dictionary API's](https://dictionaryapi.dev "link to dictionary API's homepage") search on load and submit
+- responsive design
 
 2 Carolina heals 🧘🏼‍♀️ 
 
@@ -19,12 +20,14 @@ My own personal website that hosts all my public projects and acts as a resume
 - Calendly integration for schedulin
 - SEO optimized
 - Accessibility focused
+- responsive design
 
 3 Linktree clone  🌐
 
 - Bootstrap quick styling
 - Javascript share button
 - Font awesome social media/share button icons
+- responsive design
 
 4 PingPongProject  🏓
 
