@@ -4,39 +4,47 @@ My own personal website that hosts all my public projects and acts as a resume
 
 ## Projects  🏗️
 
-1 Dictionary API  📖
+1. Dictionary API  📖
 
-- Bootstrap base styling
-- Javascript DOM manipulation
-  - Dark mode toggle
-  - [Dictionary API's](https://dictionaryapi.dev "link to dictionary API's homepage") search on load and submit
-- responsive design
+   - Bootstrap base styling
+   - Javascript DOM manipulation
+     - Dark mode toggle
+     - [Dictionary API's](https://dictionaryapi.dev "link to dictionary API's homepage") search on load and submit
+   - responsive design  
 
-2 Carolina heals 🧘🏼‍♀️  
+2. Carolina heals 🧘🏼‍♀️  
 
-- Launched site
-- Client collaboratio
-- Base bootstrap stylin
-- Calendly integration for schedulin
-- SEO optimized
-- Accessibility focused
-- responsive design
+   - Launched site
+   - Client collaboratio
+   - Base bootstrap stylin
+   - Calendly integration for schedulin
+   - SEO optimized
+   - Accessibility focused
+   - responsive design  
 
-3 Linktree clone  🌐
+3. Linktree clone  🌐
 
-- Bootstrap quick styling
-- Javascript share button
-- Font awesome social media/share button icons
-- responsive design
+   - Bootstrap quick styling
+   - Javascript share button
+   - Font awesome social media/share button icons
+   - responsive design  
 
-4 PingPongProject  🏓
+4. PingPongProject  🏓  
 
-- Bootstrap styling  
-- Javscript DOM manipulation score tracker
-  - Sets max score using variables
-  - Resets score when setting max
-  - Locks score at max using if/else
-  - Reset button for manual score reset
+   - Bootstrap styling  
+   - Javscript DOM manipulation score tracker
+     - Sets max score using variables
+     - Resets score when setting max
+     - Locks score at max using if/else
+     - Reset button for manual score reset  
+
+5. TV Show Search  📺
+
+   - The search uses the [TV Maze API](https://www.tvmaze.com) to return results  
+     1. The Api is searched then returns the name of the show, it's image and genres
+     2. A list (***list a***) is created with the name, image, and genres  
+         - A second list (***list b***) is nested inside of the ***list a*** containing the genre types
+     3. Results are returned to the DOM tree, loading ***list a*** visually
 
 ## About me 👨‍💻
 
