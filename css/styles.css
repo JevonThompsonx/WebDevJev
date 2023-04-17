@@ -890,8 +890,6 @@ form.contFrm {
 		padding: 3ch;
 	}
 
-	h2 {
-	}
 
 	.proj-button {
 		padding: 0.2em 1em;
@@ -902,8 +900,7 @@ form.contFrm {
 		margin: 0 auto;
 	}
 
-	.contact-row {
-	}
+
 }
 
 @media (max-width: 325px) {
