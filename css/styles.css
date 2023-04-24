@@ -785,9 +785,12 @@ form.contFrm {
 		background-color: #f8f7ff;
 		color: #000;
 	}
-	a {
+	.proj-text a {
 		background-color: #92bfd9;
 		color: #000;
+	}
+	a {
+	color: #000;
 	}
 	.nav-link:hover,
 	.text-links:hover {
